@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    width: 18%;
+    height: 27%;
+    margin: 5px;
+    border-radius: 20px;
+    line-height: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+div:hover {
+    transform: scale(1.07);
+    z-index: 1;
+}
+
+div.qirmizi {
+    background-color: red;
+    color: blue;
+
+}
+
+div.sari {
+    background-color: yellow;
+    color: red;
+}
+
+div.mavi {
+    background-color: blue;
+    color: yellow;
+}
